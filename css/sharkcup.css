@@ -1,0 +1,56 @@
+html, body {
+    background-color: #494042;
+    color: #fff;
+}
+
+.shark-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.shark-content {
+    text-align: center;
+}
+
+.shark-content h2 {
+    margin-top: 1rem;
+    color: #d4fa6f;
+    transition: .2s;
+}
+
+.shark-logo {
+    height: 30vw;
+    width: auto;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-button a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1rem;
+    background-color: #7c6ef5;
+    border-radius: 100px;
+    transition: .2s;
+    padding: 8px;
+    width: 15rem;
+}
+
+.content-button a:hover {
+    background-color:#d4fa6f;
+    color: black;
+}
+
+
