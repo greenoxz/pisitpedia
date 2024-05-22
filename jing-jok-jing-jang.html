@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>มูจิสปา x จิ้งจกจริงจัง - PisitPedia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="webicon" href="pic/r3k icon.png">
+    <script src="js/script.js"></script>
+    
+    <script>
+        function calculateAge(birthdate) {
+            const today = new Date();
+            const birthDate = new Date(birthdate);
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDifference = today.getMonth() - birthDate.getMonth();
+            if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+
+        function updateAge() {
+            const birthdate = '2005-08-01'; // Format: YYYY-MM-DD
+            const ageElement = document.getElementById('age');
+            ageElement.textContent = calculateAge(birthdate);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateAge();
+            setInterval(updateAge, 1000 * 60 * 60 * 24); // Update every day
+        });
+    </script>
+
+</head>
+
+<nav>
+    <div class="logo">
+        <a href="index.html" class="logo">
+            <img src="pic/r3k icon.png" alt="logo">
+            {PisitPedia}
+        </a>
+    </div>
+
+    <ul class="menu">
+        <li><a href="r3k.html">R3K</a></li>
+        <li><a href="jing-jok-jing-jang.html">Team</a></li>
+        <li><a href="teetawat_shark_cup_by_ctrl_g.html">Tournament</a></li>
+    </ul>
+</nav>
+
+<body>
+    <main id="main-content-column" class="main-content">
+        <section class="body-content">
+
+            <!--ซ้ายจอ-->
+            <div class="main-content">
+                <h>JING JOK SPA</h>
+                <h1>Overview</h1>
+                <p>Jing Jok Spa (Formerly name as: จิ้งจกจริงจัง, มูจิสปา x จิ้งจกจริงจัง) is a Southeast Asia Overwatch team. Main sponsor by <a href="https://www.twitch.tv/leejaeklao_zz" target="_blank">ลีแจกเกี๊ยว</a></p>
+                
+                <h1>Player Roster</h1>
+
+                <h2>Active</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID:</th>
+                            <th>Position:</th>
+                            <th>Join Date:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>GreenoxZ</th>
+                            <th>Tank / Support</th>
+                            <th>2022-11-11</th>
+                        </tr>
+                        <tr>
+                            <th>APCY</th>
+                            <th>Support</th>
+                            <th>2022-11-11</th>
+                        </tr>
+                        <tr>
+                            <th>TripleDot</th>
+                            <th>DPS / Support</th>
+                            <th>2024-05-13</th>
+                        </tr>
+                        <tr>
+                            <th>MayReel</th>
+                            <th>Flex</th>
+                            <th>2024-05-07</th>
+                        </tr>
+                        <tr>
+                            <th>MisterPz</th>
+                            <th>DPS</th>
+                            <th>2024-05-07</th>
+                        </tr>
+                        <tr>
+                            <th>crazyguy</th>
+                            <th>Support</th>
+                            <th>2024-05-07</th>
+                        </tr>
+                        <tr>
+                            <th>Nicht</th>
+                            <th>Flex</th>
+                            <th>2024-05-07</th>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h1>Inactive</h1>
+
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID:</th>
+                            <th>Position:</th>
+                            <th>Join Date:</th>
+                            <th>Inactive Date:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>PJ888com</th>
+                            <th>Tank</th>
+                            <th>2024-05-07</th>
+                            <th>2024-05-13</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1>Former</h1>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="6">Former Squad</th>
+                        </tr>
+                        <tr>
+                            <th>ID:</th>
+                            <th>Position:</th>
+                            <th>Join Date:</th>
+                            <th>Leave Date:</th>
+                            <th>New Team:</th>
+                        </tr>
+                    </thead>
+                    
+                        <tr>
+                            <th><a href="r3k.html">R3K</a></th>
+                            <th>Tank / DPS</th>
+                            <th>2024-03-31</th>
+                            <th>2024-03-31</th>
+                            <th><a href="#">Hong Kong</a></th>
+                        </tr>
+                        <tr>
+                            <th>Areacos</th>
+                            <th>Support</th>
+                            <th>2024-03-??</th>
+                            <th>2024-03-31</th>
+                            <th>Retired</th>
+                        </tr>
+                        <tr>
+                            <th>Wasp</th>
+                            <th>DPS / Ana</th>
+                            <th>2024-03-??</th>
+                            <th>2024-03-31</th>
+                            <th>Retired</th>
+                        </tr>
+                        <tr>
+                            <th>แอ๊แอ๊บ</th>
+                            <th>Flex</th>
+                            <th>2022-??-??</th>
+                            <th>2024-03-31</th>
+                            <th>Retired</th>
+                        </tr>
+                        <tr>
+                            <th>NongNing</th>
+                            <th>Support</th>
+                            <th>2022-??-??</th>
+                            <th>2023-??-??</th>
+                            <th>Retired</th>
+                        </tr>
+                        <tr>
+                            <th>ZunshineX</th>
+                            <th>DPS</th>
+                            <th>2022-??-??</th>
+                            <th>2023-??-??</th>
+                            <th>Retired</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1>Organization</h1>
+                <h2>Active</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Organization</th>
+                        </tr>
+                        <tr>
+                            <th>ID:</th>
+                            <th>Name:</th>
+                            <th>Position:</th>
+                            <th>Join Date:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>Vankar44</th>
+                            <th>Sirawit Khwanjaipanich</th>
+                            <th>Sport Ditector</th>
+                            <th>2024-05-07</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1>Result</h1>
+                <h2>Archievements</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date:</th>
+                            <th>Place:</th>
+                            <th>Tier:</th>
+                            <th>Tournament:</th>
+                            <th>Result:</th>
+                            <th>Prize:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>2024-03-31</th>
+                            <th>5th-12th</th>
+                            <th>B-Tier</th>
+                            <th><a href="https://challonge.com/th/SHARKCUP2" target="_blank" class="tournament-link">
+                                <img src="pic/teeta_shark_cup.png" class="team-logo">Teetawat Shark Cup By CTRLG SS2</a></th>
+                            <th>0 : 2</th>
+                            <th>฿700</th>
+                        </tr>
+                        <tr>
+                            <th>2024-03-31</th>
+                            <th>13th-16th</th>
+                            <th>B-Tier</th>
+                            <th><a href="https://challonge.com/th/c63xrlr6" target="_blank" class="tournament-link">
+                                <img src="pic/teeta-chat-cup-1.png" class="team-logo">Teetawat Chat Cup Season 1</a></th>
+                            <th>0 : 2</th>
+                            <th>$0</th>
+                        </tr>
+                        <tr>
+                            <th>2022-11-27</th>
+                            <th>Lower Bucket</th>
+                            <th>B-Tier</th>
+                            <th><a href="https://roof.co.th/tournaments-2/into-the-sea-2022-2/" target="_blank" class="tournament-link">
+                                <img src="pic/ow-intothesea.png" class="team-logo">Into The SEA Community Qualifier</a></th>
+                            <th>1 : 3</th>
+                            <th>$0</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1>Gallery</h1>
+                <div class="main-content-img">
+                    <img src="pic/jjjj-logo.png" height="300px" width="auto">
+                    <img src="pic/jjjjcheers.jpg" height="300px" width="auto">
+                </div>
+
+
+            </div>
+            <!--ซ้ายจอ End-->
+
+            <!--ขวาจอ-->
+            <div class="content">
+                <h2>Jing Jok Spa</h2>
+                <img src="pic/MSxJJJJ-White.png" alt="MS x JJJJ Logo">
+                <h2>Team Information</h2>
+                <div class="information">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th id="left">Location:</th>
+                                <th id="right">Thailand</th>
+                            </tr>
+                            <tr>
+                                <th id="left">Region:</th>
+                                <th id="right">Southeast Asia</th>
+                            </tr>
+                            <tr>
+                                <th id="left">Approx. Total Winnings:</th>
+                                <th id="right">฿700</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2>Links</h2>
+                <div class="social-icon">
+                    <a href="https://discord.gg/rANwe97Kma" target="_blank" rel="noopener"><img src="pic/discord icon.png" class="social-icon"></a>
+                    <a href="https://www.twitch.tv/pisitz" target="_blank" rel="noopener"><img src="pic/twitch-icon.png" class="social-icon"></a>
+                </div>
+                <h2>History</h2>
+                <div class="history">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th id="left">Created:</th>
+                                <th id="right">2022-11-11</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!--ขวาจอ End-->
+
+        </section>
+        
+    </main>
+
+</body>
+
+<footer>
+    <p>© 2024 Pisit Kongnarong</p>
+</footer>
+
+</html>

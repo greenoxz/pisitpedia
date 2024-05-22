@@ -21,6 +21,8 @@
         font-size:inherit;
     }
 
+    h2 {color: #a4276e;}
+
     a {
         color: #7451f5;
         text-decoration: none;
@@ -184,7 +186,7 @@
         background-color: #f5f5f5;
         border: 2px solid #f4ddea;
         min-width: 200px;
-        width: 20%;
+        max-width: 400px;
     }
 
     .content h2 {
@@ -225,10 +227,12 @@
 
     }
 
+    div.social-icon {
+        margin: 5px 0;
+    }
+
     .social-icon {
         height: 2rem;
-        margin-top: 5px;
-        margin-bottom: 5px;
         padding-left: 5px;
         padding-right: 5px;
         width: auto;
@@ -306,12 +310,14 @@
         font-size: 13px;
         font-style: italic;
         color: #2b2b2b;
+        padding-right: 2px;
     }
 
     .history #right {
         text-align: left;
         width: 50%;
         font-size: 14px;
+        padding-left: 2px;
     }
 
     table {
@@ -326,10 +332,17 @@
         text-align: center;
         margin: 8px;
         place-items: center;
-        
     }
 
-    tr:nth-child(even) {
+    .main-content table tbody tr th {
+        padding: 8px 0;
+    }
+
+    thead tr {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:nth-child(even) {
         background-color: #f2f2f2;
     }
 
@@ -379,6 +392,16 @@
     .main-content-img {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .main-content-img img {
+        min-width: 300px;
+        max-width: 350px;
+        height: auto;
+        margin: 5px;
     }
 
     .ref-text {
@@ -396,7 +419,7 @@
     footer {
         background-color: #a4276e;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 1rem;
         color: #fff;
         align-content: center;
