@@ -19,6 +19,11 @@
         font-style: normal;
         background-color: #e5e5e5;
         font-size:inherit;
+        transition: .2s;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     h2 {color: #a4276e;}
@@ -87,6 +92,7 @@
 
     .logo a:hover {
         color: #e8b6d2;
+        font-size: 26px;
     }
 
     .menu {
@@ -100,12 +106,13 @@
         font-weight: 400;
         color: inherit;
         color: #e8b6d2;
-        transition: .2s;
+        transition: .5s;
         margin: 1rem;
     }
 
     .menu li a:hover {
         color: #f4ddea;
+        font-size: 18px;
 
     }
 
@@ -156,6 +163,7 @@
     .body-content {
         display: flex;
         height: auto;
+        margin-bottom: 1rem;
     }
 
     .main-content h {
@@ -432,7 +440,6 @@
     /* footer */
 
     #footer {
-        margin-top: 1rem;
         background-color: #fff;
         display: flex;
         justify-content: space-between;
@@ -448,7 +455,7 @@
     #footer div p {
         text-decoration: none;
         color: #a4276e;
-        transition: .2s;
+        transition: .5s;
     }
 
     #footer div p a {
@@ -457,14 +464,16 @@
         font-weight: inherit;
         color: #a4276e;
         font-weight: 500;
+        font-size: inherit;
+        text-transform: none;
     }
 
     #footer div p a:hover {
-        color: #e8b6d2;
+        color: #1a1a1a;
     }
 
     #footer div p:hover {
-        color: #e8b6d2;
+        color: #1a1a1a;
     }
 
     #logo {
@@ -475,13 +484,14 @@
         font-size: 24px;
         display: block;
         margin-bottom: .5rem;
-        transition: .2s;
+        transition: .5s;
         text-decoration: none;
+        text-transform: none;
     }
 
     #logo:hover {
         font-size: 30px;
-        color: #e8b6d2;
+        color: #1a1a1a;
     }
 
     .footer-contact {
@@ -503,11 +513,32 @@
     #svg {
         fill: #a4276e;
         margin-right: .5rem;
-        transition: .2s;
+        transition: .5s;
     }
 
     #svg:hover {
-        fill: #e8b6d2;
+        fill: #1a1a1a;
+    }
+
+    #footer-cp {
+        background: #a4276e;
+        color: #e8b6d2;
+        padding: .3rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer-cp a {
+        color: inherit;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #footer-cp a:hover {
+        text-decoration: none;
+        color: inherit;
+        font-weight: inherit;
+        color: #fff;
     }
 
     /* footer end*/
