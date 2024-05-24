@@ -135,7 +135,17 @@
 
     .banner {
         padding-top: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
+
+    #topper-ads {
+        max-height: 10rem;
+        padding: 0;
+        margin: 0;
+    }
+    
 
     .banner-info h1 {
         color: #a4276e;
