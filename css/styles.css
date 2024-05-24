@@ -249,7 +249,8 @@
     }
 
     div.social-icon {
-        margin: 5px 0;
+        align-items: center;
+        display: flex;
     }
 
     .social-icon {
@@ -260,6 +261,16 @@
         display: flex;
         justify-content: center;
         transition: .2s;
+    }
+
+    .fa-brands {
+        padding: 5px;
+        color: #1a1a1a;
+        transition: .2s;
+    }
+
+    .fa-brands:hover {
+        color: #a4276e;
     }
 
     .social-icon img {
