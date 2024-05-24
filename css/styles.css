@@ -57,6 +57,9 @@
         background: #a4276e;
         height: 4rem;
         margin: 0 auto;
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
     }
 
     .logo a img {
@@ -235,7 +238,7 @@
         height: 2rem;
         padding-left: 5px;
         padding-right: 5px;
-        width: auto;
+        min-width: 2rem;
         display: flex;
         justify-content: center;
         transition: .2s;
@@ -416,11 +419,85 @@
         padding: 8px;
     }
 
-    footer {
-        background-color: #a4276e;
+    /* footer */
+
+    #footer {
+        margin-top: 1rem;
+        background-color: #fff;
         display: flex;
-        justify-content: center;
-        padding: 1rem;
-        color: #fff;
+        justify-content: space-between;
+        transition: .2s;
+        padding: 1rem 5rem;
+        color: #a4276e;
+        align-content: center;
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+    }
+
+    #footer div p {
+        text-decoration: none;
+        color: #a4276e;
+        transition: .2s;
+    }
+
+    #footer div p a {
+        text-decoration: none;
+        color: initial;
+        font-weight: inherit;
+        color: #a4276e;
+        font-weight: 500;
+    }
+
+    #footer div p a:hover {
+        color: #e8b6d2;
+    }
+
+    #footer div p:hover {
+        color: #e8b6d2;
+    }
+
+    #logo {
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: inherit;
+        font-size: 24px;
+        display: block;
+        margin-bottom: .5rem;
+        transition: .2s;
+        text-decoration: none;
+    }
+
+    #logo:hover {
+        font-size: 30px;
+        color: #e8b6d2;
+    }
+
+    .footer-contact {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-contact div {
         align-content: center;
     }
+
+    .footer-contact p {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #svg {
+        fill: #a4276e;
+        margin-right: .5rem;
+        transition: .2s;
+    }
+
+    #svg:hover {
+        fill: #e8b6d2;
+    }
+
+    /* footer end*/
