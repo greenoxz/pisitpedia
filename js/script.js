@@ -27,3 +27,24 @@ document.addEventListener('DOMContentLoaded', function() {
     updateAge();
     setInterval(updateAge, 1000 * 60 * 60 * 24); // Update every day
 });
+
+// scripts.js
+document.addEventListener('DOMContentLoaded', (event) => {
+    const popup = document.getElementById('popup');
+    const openPopupBtn = document.getElementById('openPopupBtn');
+    const closePopupBtn = document.getElementById('closePopupBtn');
+
+    openPopupBtn.addEventListener('click', () => {
+        popup.style.display = 'flex'; // แสดง Popup
+    });
+
+    closePopupBtn.addEventListener('click', () => {
+        popup.style.display = 'none'; // ซ่อน Popup
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none'; // ซ่อน Popup เมื่อคลิกภายนอก
+        }
+    });
+});
