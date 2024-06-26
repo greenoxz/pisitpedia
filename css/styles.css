@@ -448,6 +448,16 @@
         padding: 8px;
     }
 
+    .former {
+        border-left: 2px solid #e8b6d2;
+        border-right: 2px solid #e8b6d2;
+        padding: 1rem;
+    }
+
+    .former h2 {
+        padding-top: 5px;
+    }
+
     /* footer */
 
     #footer {
